@@ -1,0 +1,48 @@
+/* selector por clase */
+
+
+/* .titulo {
+    border: 4px solid black;
+    box-shadow: -5px -5px 10px gold;
+}
+ */
+
+ /* Selector por atributos que tenga un atributo sin importar el valor */
+
+ /* p[lang="en"]{
+    background-color: blue;
+} */
+
+/* Signo de pesos significa que termine con lo especificado */
+/* a[href$="org"] {
+    background-color: aqua;
+}
+
+
+a[href^="#"] {
+    background-color: green;
+}
+
+
+a[href*="empresa"] {
+    font-size: 85px;
+} */
+
+
+/* Selector de descendientes */
+/*dotted hace puntitos como subrayado*/
+/*dashed hace puntitos como subrayado*/
+
+/* main p {
+    border-bottom: 1px dashed black;
+} */
+
+/* Selector hijo directo */
+main > p {
+    border-bottom: 1px dashed black;
+}
+
+h3 + p {
+    border-top: 1px solid red;
+    border-radius: 5px;
+}
